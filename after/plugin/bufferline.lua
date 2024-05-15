@@ -12,4 +12,3 @@ bufferline.setup({
 })
 
 api.nvim_set_keymap('n', '<c-t>', ':BufferLinePick<cr>', { noremap = true })
-

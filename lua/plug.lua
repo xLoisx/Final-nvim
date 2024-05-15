@@ -23,8 +23,14 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
-Plug "rafamadriz/friendly-snippets"
+-- Plug 'hrsh7th/vim-vsnip'
+-- Plug "rafamadriz/friendly-snippets"
+Plug('L3MON4D3/LuaSnip', { tag = 'v2.*', run = 'make install_jsregexp' })
+Plug 'saadparwaiz1/cmp_luasnip'
+
+Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'neovim/nvim-lspconfig'
 
 Plug 'zivyangll/git-blame.vim'
 
@@ -33,8 +39,6 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'tpope/vim-surround'
 
 Plug 'tpope/vim-repeat'
-
-Plug 'jiangmiao/auto-pairs'
 
 Plug 'psliwka/vim-smoothie'
 
